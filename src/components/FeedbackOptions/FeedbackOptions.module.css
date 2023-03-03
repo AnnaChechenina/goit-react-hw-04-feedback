@@ -1,0 +1,27 @@
+.feedbackBtn {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  color: #000;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  margin-right: 20px;
+  margin-left: 50px;
+}
+
+.feedbackBtn:hover,
+:focus {
+  border-color: darkblue;
+  color: darkblue;
+  background-color: lightblue;
+}
